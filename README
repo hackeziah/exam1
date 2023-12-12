@@ -1,0 +1,27 @@
+# EXAM 1
+
+    Python Programming
+
+## Requirements
+
+Specify any prerequisites or dependencies required to run your program.
+
+- Python 3.x
+- virtual enviroment for pytest
+
+## Installation
+
+```
+Install pip virtualenv first
+>> python -m venv venv => create virtual environment
+>> venv\Scripts\activate => activate the venv
+>> pip install -r requirements.txt => to install packages for unittest (Pytest) for your virtual environment.
+```
+
+## Testing
+
+Now you may now use the the pytest command
+
+```bash
+    pytest tests.py
+```
